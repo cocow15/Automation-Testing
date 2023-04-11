@@ -7,6 +7,6 @@ Feature: feature to test logout functionality
   @SmokeTest
   Scenario: User successfully logout from the system
     Given browser is on homepage 
-    When user clicks on profile button
+    And user clicks on profile button
     And user clicks on logout button
     Then user is navigated to the login page

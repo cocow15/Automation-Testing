@@ -78,7 +78,7 @@ public class LogoutSteps {
 			this.user_is_navigated_to_the_home_page();
 		}
 		
-		@When("user clicks on profile button")
+		@And("user clicks on profile button")
 		public void user_clicks_on_profile_button() {
 			
 			driverOut.findElement(By.xpath("//*[@id=\"psaapp\"]/div/div[1]/div/div[3]/div/span")).click();
