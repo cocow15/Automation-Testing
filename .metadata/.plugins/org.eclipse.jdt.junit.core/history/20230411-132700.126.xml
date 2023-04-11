@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner (1)" project="DoCMS" tests="6" started="6" failures="0" errors="1" ignored="0">
+  <testsuite name="StepDefinitions.TestRunner" time="76.507">
+    <testsuite name="feature to test login functionality" time="76.507">
+      <testcase name="check login is successful with valid credentials" classname="feature to test login functionality" time="21.641">
+        <error>org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 18.921
+  (Session info: chrome=111.0.5563.147)
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54cd6b63225bc5175c76e8f210465c34, get {url=http://103.172.204.236:8080/login/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.147, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\dimas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60265}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60265/devtoo..., se:cdpVersion: 111.0.5563.147, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 54cd6b63225bc5175c76e8f210465c34&#13;
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:982)&#13;
+	at StepDefinitions.LoginSteps.user_is_on_login_page(LoginSteps.java:36)&#13;
+	at ✽.user is on login page(file:///C:/Users/dimas/eclipse-workspace/DoCMS/src/test/resources/Features/login.feature:10)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="check login is un-successful with invalid credentials #1" classname="feature to test login functionality" time="10.345"/>
+      <testcase name="check login is un-successful with invalid credentials #2" classname="feature to test login functionality" time="16.404"/>
+      <testcase name="check login is un-successful with invalid credentials #3" classname="feature to test login functionality" time="19.721"/>
+      <testcase name="check login is un-successful with invalid credentials #4" classname="feature to test login functionality" time="4.985"/>
+      <testcase name="check login is un-successful with invalid credentials #5" classname="feature to test login functionality" time="3.409"/>
+    </testsuite>
+  </testsuite>
+</testrun>

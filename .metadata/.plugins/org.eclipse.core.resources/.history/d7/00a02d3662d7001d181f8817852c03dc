@@ -1,0 +1,27 @@
+package StepDefinitions;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class LoginSteps {
+	
+	WebDriver driver = null;
+	
+	@Given("browser is open ")
+	public void browser_is_open() {
+		System.setProperty("");
+		ChromeOptions options = new ChromeOptions();
+		
+		driver = new ChromeDriver(options);
+		
+			
+	}
+	
+}

@@ -1,0 +1,10 @@
+@And("user clicks on login button")
+public void user_clicks_on_login_button() {
+driver.findElement(By.xpath("//*[@id=\"psaapp\"]/div/div[1]/div/form/button")).click();
+}
+@Then ("user is navigated to the home page")
+public void user_is_navigated_to_the_home_page() {
+driver.findElement(By.xpath("//*[@id=\"psaapp\"]/div/div[2]/div/div[2]/div/div[1]")).isDisplayed();
+driver.close();
+driver.quit();
+}
