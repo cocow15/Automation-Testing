@@ -26,7 +26,7 @@ public class LoginSteps {
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
-		
+		driver.manage().window().maximize(); // menampilkan jendela browser full screen
 	}
 	
 	
